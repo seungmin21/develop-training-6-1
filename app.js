@@ -8,7 +8,7 @@ function container() {
   function itemThree() {
     return "</h1>";
   }
-  return itemOne + itemTwo + itemThree;
+  return itemOne() + itemTwo() + itemThree();
 }
 
 console.log(container());
